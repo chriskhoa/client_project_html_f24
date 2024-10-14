@@ -151,7 +151,15 @@ h2 {
     border-radius: 15px;
     box-shadow: 10px 10px 5px gray;
     padding: 3% 5%;
-    margin: 8%;
+    margin: 5%;
+}
+
+.contents h2 {
+    font-size: 250%;
+    font-weight: 600;
+    line-height: 2rem;
+    text-align: center;
+    padding-top: 3%;
 }
 
 h3 {
