@@ -210,13 +210,14 @@ h3 {
             left, transparent 0%, #FFCB05 20%, #FFCB05 80%, transparent 100%);
 }
 
-.outro .emphasize {
+.outro h3 {
     font-weight: 600;
     font-size: 180%;
     line-height: 2rem;
     display: block;
     text-align: center;
     color: #00274C;
+    padding-bottom: 3%;
 }
 
 .outro p {
