@@ -253,6 +253,9 @@ footer h3 {
 
 footer p {
     margin: 5% auto;
+    font-weight: 500;
+    font-size: 130%;
+    line-height: 2rem;
 }
 
 footer a {
