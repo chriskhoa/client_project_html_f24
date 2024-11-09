@@ -24,10 +24,14 @@
           <li class="nav-item"><a href="community.html">Community</a></li>
         </ul>
       </nav>
-      <h1 id="main-content">Student Success Portal</h1>
+      <h1 id="main-content">404 error</h1>
     </header>
     <main>
-        <p>404 not found!</p>
+      <div class="error">
+        <h2>Oops! Wrong way.</h2>
+        <p>We get it. It's easy to get lost in a Maize field. Just <a href="index.html">Go Blue</a> to get back home!</p>
+        <div class="button"><a href="index.html">Go to home page</a></div>
+      </div>
     </main>
     <footer>
       <!-- Image from UMSI digital assets -->
@@ -35,7 +39,7 @@
       src="images/UMSI_signature_vertical_informal_solidblue.jpg"
       alt="UMSI Logo"
       >
-      <p>Copyright &copy; UMSI. All Rights Reserved.</p>
+      <p>Copyright &copy; <span id="year"></span> UMSI. All Rights Reserved.</p>
       <h3>Contact Us</h3>
       <p>
         School of Information<br>
@@ -46,5 +50,8 @@
       <p><a href="tel:+7347632285">Phone: (734) 763-2285</a></p>
       <p><a href="mailto:umsi.academicsuccess@umich.edu">Email: umsi.academicsuccess@umich.edu</a></p>
     </footer>
+    <script>
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
   </body>
 </html>
