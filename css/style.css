@@ -428,6 +428,10 @@ footer a {
         line-height: 2rem;
     }
 
+    .overview a:hover {
+        border: 2px solid white;
+    }
+
     /* contents for home */
     #home {
         display: grid;
