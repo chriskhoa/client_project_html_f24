@@ -67,6 +67,11 @@ nav .active a{
     color: #00274C;
 }
 
+/* hide dropdown in mobile view */
+.dropdown {
+    display: none;
+}
+
 /* h1 */
 h1 {
     font-size: 220%;
@@ -351,6 +356,42 @@ footer a {
 
     nav .active {
         background-color: #00274C;
+    }
+
+    /* show dropdown menu when hove */
+    li.nav-item {
+        position: relative;
+        padding: 2% 0;
+    }
+
+    li.nav-item:hover .dropdown {
+        position: absolute;
+        display: flex;
+        flex-flow: wrap column;
+        align-items: stretch;
+        right: 0;
+        top: 100%;
+        width: 100%;
+        background-color: white;
+        /* the line below is from: https://www.w3schools.com/css/css3_shadows_box.asp */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border: 2px solid #00274C;
+    }
+
+    .dropdown li {
+        display: block;
+        padding: 10% 0;
+        border-bottom: 2px solid #00274C;
+    }
+
+    .dropdown li a {
+        color: #00274C;
+        font-size: 120%;
+    }
+
+    .dropdown li a:hover {
+        text-decoration: underline;
+        text-underline-offset: 3px;
     }
 
     /* h1 */
