@@ -1,2 +1,2 @@
 # 539f24_Client_Project_Starter
-Starter code for the Fall 2024 SI 539 Client Project
+[View page](https://chriskhoa.github.io/client_project_html_f24/)
